@@ -201,3 +201,31 @@ nav a {
     display: block;
     margin: 0 auto 30px auto;
 }
+
+.resume-section {
+    padding: 5rem 10%;
+}
+
+.resume-section h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.resume-grid {
+    margin-top: 3rem;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 20px;
+}
+
+.resume-card {
+    background: #1f2937;
+
+    padding: 25px;
+
+    border-radius: 10px;
+}
