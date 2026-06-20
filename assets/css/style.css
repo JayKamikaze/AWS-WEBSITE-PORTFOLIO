@@ -55,7 +55,7 @@ nav a {
 }
 
 .btn {
-    background: #f59e0b;
+    background: #aa0505;
     color: white;
 
     padding: 15px 25px;
@@ -63,4 +63,68 @@ nav a {
     text-decoration: none;
 
     border-radius: 8px;
+}
+.hero {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-content {
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #f59e0b;
+    margin-bottom: 1.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid #f59e0b;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.skills {
+    padding: 5rem 10%;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 2rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
 }
