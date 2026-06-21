@@ -254,3 +254,10 @@ nav a {
     color: #f59e0b;
     text-decoration: none;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    margin-top: 50px;
+}
