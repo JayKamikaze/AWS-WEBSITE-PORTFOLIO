@@ -319,6 +319,27 @@ nav a {
     color: #D1D5DB;
 }
 
+.visitor-counter {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.visitor-counter h2 {
+    color: #C1121F;
+    margin-bottom: 1rem;
+}
+
+.visitor-text {
+    font-size: 1.3rem;
+    color: #D1D5DB;
+}
+
+#visitor-count {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
 footer {
     text-align: center;
     padding: 20px;
