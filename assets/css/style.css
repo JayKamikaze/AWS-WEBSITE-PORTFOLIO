@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #0f172a;
+    background: #0B1F3A;
     color: white;
 }
 
@@ -55,7 +55,7 @@ nav a {
 }
 
 .btn {
-    background: #aa0505;
+    background: #C1121F;
     color: white;
 
     padding: 15px 25px;
@@ -64,6 +64,13 @@ nav a {
 
     border-radius: 8px;
 }
+
+.btn:hover,
+.btn-secondary:hover {
+    background: #DC2626;
+    transition: 0.3s ease;
+}
+
 .hero {
     min-height: 85vh;
     display: flex;
@@ -86,7 +93,7 @@ nav a {
 
 .hero h2 {
     font-size: 2rem;
-    color: #f59e0b;
+    color: #C1121F;
     margin-bottom: 1.5rem;
 }
 
@@ -127,7 +134,7 @@ nav a {
 }
 
 .skill-card {
-    background: #1f2937;
+    background: #374151;
     padding: 20px;
     border-radius: 10px;
 }
