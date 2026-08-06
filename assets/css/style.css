@@ -75,6 +75,8 @@ nav a {
 
 .hero-content {
     max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .hero h1 {
@@ -89,9 +91,10 @@ nav a {
 }
 
 .hero p {
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
     font-size: 1.2rem;
     line-height: 1.8;
-    margin-bottom: 2rem;
 }
 
 .hero-buttons {
