@@ -340,6 +340,42 @@ nav a {
     color: white;
 }
 
+#contact-form {
+    max-width: 700px;
+    margin: 40px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    background: #374151;
+    color: white;
+    border: 1px solid #4B5563;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #C1121F;
+}
+
+#contact-form textarea {
+    resize: vertical;
+    min-height: 160px;
+}
+
+#status-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #D1D5DB;
+}
+
 footer {
     text-align: center;
     padding: 20px;
