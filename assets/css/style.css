@@ -11,12 +11,16 @@ body {
 }
 
 nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     padding: 20px 10%;
-    background: #111827;
+    background: #16263D;
 }
 
 nav ul {
@@ -294,6 +298,25 @@ nav a {
 .project-card h3 {
     margin-bottom: 1rem;
     color: #C1121F;
+}
+
+.current-project {
+    padding: 5rem 10%;
+    text-align: center;
+}
+
+.current-project h2 {
+    margin-bottom: 2rem;
+}
+
+.current-project ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.current-project li {
+    margin: 10px 0;
+    color: #D1D5DB;
 }
 
 footer {
