@@ -135,8 +135,25 @@ nav a {
 
 .skill-card {
     background: #374151;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #4B5563;
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+    border-color: #C1121F;
+}
+
+.skill-card h3 {
+    color: #C1121F;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    margin-bottom: 8px;
+    color: #D1D5DB;
 }
 
 .projects {
