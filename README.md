@@ -68,5 +68,5 @@ A modern cloud portfolio built to demonstrate practical AWS Cloud Engineering sk
 
 Aspiring Cloud Engineer | AWS | DevOps | Cloud Security
 
-- LinkedIn: *Add your LinkedIn URL*
+- LinkedIn: https://www.linkedin.com/in/jerryselenou
 - GitHub: https://github.com/JayKamikaze
