@@ -47,7 +47,32 @@ A modern cloud portfolio built to demonstrate practical AWS Cloud Engineering sk
 
 ## Project Architecture
 
-*Architecture diagram coming soon.*
+![AWS Cloud Portfolio Architecture](docs/architecture/AWS-Cloud-Portfolio-Architecture.png)
+
+### Architecture Overview
+
+This portfolio demonstrates a modern, serverless AWS architecture designed to showcase practical Cloud Engineering skills.
+
+#### Frontend
+- Static website hosted in a private Amazon S3 bucket
+- Content delivered globally through Amazon CloudFront
+- Origin Access Control (OAC) secures the S3 bucket
+
+#### Backend Services
+
+**Visitor Counter**
+- API Gateway
+- AWS Lambda
+- Amazon DynamoDB
+
+**Contact Form**
+- API Gateway
+- AWS Lambda
+- Amazon SES
+
+#### CI/CD
+
+Every change is automatically deployed from GitHub using GitHub Actions, providing a fully automated deployment pipeline.
 
 ---
 
@@ -70,30 +95,3 @@ Aspiring Cloud Engineer | AWS | DevOps | Cloud Security
 
 - LinkedIn: https://www.linkedin.com/in/jerryselenou
 - GitHub: https://github.com/JayKamikaze
-
-## 🏗️ Architecture
-
-![AWS Cloud Portfolio Architecture](docs/architecture/AWS-Cloud-Portfolio-Architecture.png)
-
-### Architecture Overview
-
-This portfolio demonstrates a modern, serverless AWS architecture designed to showcase practical Cloud Engineering skills.
-
-#### Frontend
-- Static website hosted in a private Amazon S3 bucket
-- Content delivered globally through Amazon CloudFront
-- Origin Access Control (OAC) secures the S3 bucket
-
-#### Backend Services
-**Visitor Counter**
-- API Gateway
-- AWS Lambda
-- Amazon DynamoDB
-
-**Contact Form**
-- API Gateway
-- AWS Lambda
-- Amazon SES
-
-#### CI/CD
-Every change is automatically deployed from GitHub using GitHub Actions, providing a fully automated deployment pipeline.
