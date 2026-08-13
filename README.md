@@ -74,6 +74,13 @@ This portfolio demonstrates a modern, serverless AWS architecture designed to sh
 
 Every change is automatically deployed from GitHub using GitHub Actions, providing a fully automated deployment pipeline.
 
+### Security
+
+- Amazon S3 bucket secured with CloudFront Origin Access Control (OAC)
+- Lambda functions use least-privilege IAM policies
+- Visitor Counter Lambda can only update the PortfolioVisitorCounter DynamoDB table
+- Contact Form Lambda is restricted to sending email through Amazon SES
+- HTTPS enabled through Amazon CloudFront
 ---
 
 ## Future Improvements
