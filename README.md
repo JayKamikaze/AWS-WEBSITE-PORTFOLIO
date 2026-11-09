@@ -103,4 +103,16 @@ Aspiring Cloud Engineer | AWS | DevOps | Cloud Security
 - LinkedIn: https://www.linkedin.com/in/jerryselenou
 - GitHub: https://github.com/JayKamikaze
   
-OIDC deployment verification - November 2026
+## Secure CI/CD with GitHub Actions and AWS OIDC
+
+Implemented a secure, automated deployment pipeline using GitHub Actions and AWS OpenID Connect (OIDC).
+
+**Architecture and security improvements:**
+- Configured GitHub as an AWS IAM OIDC identity provider.
+- Created a dedicated IAM deployment role with repository and branch-restricted trust.
+- Replaced long-lived AWS access keys with temporary credentials issued through AWS STS.
+- Applied least-privilege permissions for Amazon S3 deployments and Amazon CloudFront cache invalidations.
+- Automated website synchronization and cache invalidation on pushes to the `main` branch.
+- Verified successful deployments after deactivating the legacy IAM access key.
+
+**Technologies:** AWS IAM, OIDC, AWS STS, Amazon S3, Amazon CloudFront, GitHub Actions, YAML.
