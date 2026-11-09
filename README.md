@@ -102,3 +102,5 @@ Aspiring Cloud Engineer | AWS | DevOps | Cloud Security
 
 - LinkedIn: https://www.linkedin.com/in/jerryselenou
 - GitHub: https://github.com/JayKamikaze
+  
+OIDC deployment verification - November 2026
